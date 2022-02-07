@@ -1,0 +1,62 @@
+.mainIndex{
+    h2{
+        font-size: $letraMediana;
+    }
+    h3{
+        color: $gris;
+    }
+    img{
+        width: $ancho;
+        border-radius: 30%;
+    }
+    p{
+        font-size: $letraParrafo;
+        text-align: justify;
+        line-height: 1.5;
+        &:hover{
+            background-color: $transparente;
+        }
+    }
+    article{
+        span{
+            background-color: $amarillo;
+            font-weight: bold;
+            
+        }
+    }
+}
+
+.footerIndex{
+    background-color: $rojo;
+    font-size: $letraMediana;
+    text-align: center;
+    p{
+        font-weight: bold;
+    }
+    &:hover{
+        color: $blanco;
+    }
+}
+
+
+
+
+//MEDIANO
+@media (max-width: 850px){
+
+    .mainIndex{
+        img{
+            width: $ancho/2;
+        }
+    }
+}
+
+//CHICOS
+@media (max-width: 450px){
+
+    .mainIndex{
+        img{
+            width: $ancho/4;
+        }
+    }
+}

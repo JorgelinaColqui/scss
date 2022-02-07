@@ -1,0 +1,10 @@
+.headerIndex{
+    h1{
+        background-color: $rojo;
+        font-size: $letraGrande;
+        text-align: center;
+        &:hover{
+            color: $blanco;
+        }
+    }
+}
